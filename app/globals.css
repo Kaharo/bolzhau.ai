@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+body {
+  background-color: #f0f0f0; /* Set your desired background color */
+  color: #333; /* Set a default text color */
+  font-family: 'Inter', sans-serif; /* Ensure this matches your font import */
+}
+
+/* Neuromorphic design shadows */
+.shadow-neuromorphic {
+  box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+}
