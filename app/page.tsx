@@ -35,7 +35,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center mb-8 md:space-x-4 md:space-y-0 space-y-4 overflow-x-auto">
+        {/* <div className="flex flex-col md:flex-row justify-center mb-8 md:space-x-4 md:space-y-0 space-y-4 overflow-x-auto">
           {Object.keys(predictions).map((key) => (
             <Card
               key={key}
@@ -43,7 +43,7 @@ const Home = () => {
               predictions={predictions[key].data}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </Layout>
   );
