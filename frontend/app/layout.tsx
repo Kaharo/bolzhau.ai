@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Header />
-        <main className="flex flex-grow items-center justify-center container mx-auto px-4 py-8">
+        <main className="flex-grow">
+
+
           {children}
         </main>
         <Footer />
@@ -28,3 +30,4 @@ export default function RootLayout({
     </html>
   );
 }
+
